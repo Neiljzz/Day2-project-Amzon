@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Signin</title>
+</head>
+<style>
+
+    body{margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: white;}
+
+
+    .box1{display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        }
+
+    .box2{width:355px ;
+            height: 320px;
+            padding: 10px;
+            border:1px solid rgba(128,128,128,0.5);
+            text-align: left;   
+            display: flex;
+            justify-content: left;
+            
+        }
+    
+
+    .box2 h1{font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 400;
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+    }
+
+    .box2 h2{font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: grey;}
+
+    .box2 li{font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+        position: relative; left: -23px;
+        color: rgb(79, 154, 255);}
+
+    .box2 input[type="text"]{
+        border-width: 1px;
+        border-radius: 3px;
+        display: block;
+        width: 345px;
+        height: 30px;
+        margin-bottom: 30px;
+    }
+
+    #forgot{ position: relative; right:-190px;
+            color: rgb(79, 154, 255);
+    }
+
+    .box2 input[type="password"]{
+        border-width: 1px;
+        border-radius: 3px;
+        display: block;
+        width: 345px;
+        height: 30px;
+        margin-bottom: 2px;
+    }
+
+    button{
+        border-width: 1px;
+        border-radius: 3px;
+        display: block;
+        width: 355px;
+        height: 30px;
+        text-align: center;
+        background-color: rgb(247, 197, 71);
+    }
+
+    .box3{
+        border-color: grey;
+        display: block;
+        margin: auto;
+        justify-content: center;
+        border-radius: 3px;
+        width: 355px;
+        height: 30px;
+        text-align: center;
+        background-color:rgb(230, 233, 236);
+    }
+        
+    .box4{text-align: center;
+            position: relative;right: 30px;
+    }
+
+    .box4 li{
+        display: inline-block;
+        margin: 0 auto;
+        color:rgb(79, 154, 255);
+        display: inline;
+        margin: 30px;
+        font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+        }
+    
+    footer{font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+        text-align: center;
+    }
+</style>
+
+
+<body>
+<div class="box1">
+    <div class="box2">
+    <form action="Login" method="post">
+        <h1>Sign in</h1>
+        <h2>Email or mobile phone number</h2>
+        <input type="text" name="username" placeholder="Enter Email">
+        <h2>
+            <span>Password</span>
+            <span id="forgot">Forgot Password</span>
+        </h2>
+        <input type="password" name="password" placeholder="Enter Password"><br>
+        <button>Continue</button>
+        <ul>
+            <li>Need Help?</li>
+        </ul>
+       
+    </form>
+    </div>
+</div>
+<br><br>
+
+<div>
+        <button class="box3">Create Your Amazon Account</button>
+</div>
+
+    <br><br>
+    <hr>
+
+<div class="box4">
+    <ul>
+        <li>Conditions of use</li>
+        <li>Privacy Policy</li>
+        <li>Help</li>
+    </ul>
+</div>
+<br>
+
+    <footer>
+        &copy; 1996-2020. Amazaon.com.inc of it's affiliates
+
+    </footer>
+</body>
+</html>
